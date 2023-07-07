@@ -35,6 +35,7 @@ function App() {
   return (
     <div className="App">
       <p>Hi {name}</p>
+      <h2>welcome 🥳🥳🥳</h2>
       {nameList.map((item, index) => (
         <Sample key={index} nm={item} />
       ))}
